@@ -13,9 +13,11 @@ namespace BasicQueuingCashier
 
             QueuingForm qForm = new QueuingForm();
             CashierWindowQueueForm cForm = new CashierWindowQueueForm();
+            CustomerView cvForm = new CustomerView();
 
             qForm.Show();
             cForm.Show();
+            cvForm.Show();
 
             Application.Run();
         }
